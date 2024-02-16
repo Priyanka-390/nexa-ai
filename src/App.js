@@ -36,7 +36,7 @@ function App() {
 
     <div className="App bg-black">
        {preloader&& <Preloader/>}
-      <div className='container md:max-w-[1380px] px-3 mx-auto'>
+      <div className=' px-30 '>
         <div className='bg-[url(./assets/images/herosection.gif)] flex  flex-col sm:min-h-screen bg-no-repeat bg-cover bg-center'>
           <Mynav/>
           <Herosec/>
