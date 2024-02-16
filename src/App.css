@@ -37,3 +37,16 @@
  z-index: 2;
   background-color: #040404;
 }
+.slick-track {
+    display: flex !important;
+}
+
+.slick-slide {
+    height: inherit !important;
+    display: flex !important;
+}
+
+.slick-slide>div {
+    display: flex;
+    width: 100%;
+}

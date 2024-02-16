@@ -77,7 +77,7 @@ const Utilitysec = () => {
           </div>
         </div>
       </div>
-                              <div className="w-[228px] h-[228px] blur-[200px] bg-[#02CDCF] rounded-full absolute  top-0 left-0"></div>
+                              <div className="w-[228px] h-[228px] blur-[200px] bg-[#02CDCF] rounded-full absolute z-[-1]  top-0 left-0"></div>
                         <div className="w-[228px] h-[228px] blur-[200px] bg-[#02CDCF] rounded-full absolute z-[-1] top-[30%] right-0"></div>
 <img src={rightring} alt="right" className=" absolute right-0 md:block hidden  top-0" />
     </div>

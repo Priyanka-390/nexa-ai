@@ -82,16 +82,16 @@ const Blockchain = () => {
   return (
     <div className="pt-2 overflow-x-clip blockchain z-[3] relative">
       <div className="container max-w-[1140px] mx-auto  px-3 relative " id="nex">
-        <h2 className="text-center lg:text-[40px] md:text-4xl text-3xl ff-rech font-bold text-[#02CDCF]">
+        <h2 className="text-center lg:text-[40px] relative z-[2] md:text-4xl text-3xl ff-rech font-bold text-[#02CDCF]">
           Blockchain & AI technology
         </h2>
-        <p className=" font-poppins sm:text-base text-sm text-center  font-normal text-white max-w-[997px] opacity-[70%] md:pt-4 sm:pt-2 pt-1 mx-auto">
+        <p className=" font-poppins relative z-[2] sm:text-base text-sm text-center  font-normal text-white max-w-[997px] opacity-[70%] md:pt-4 sm:pt-2 pt-1 mx-auto">
           Nexai is an advanced home assistant that will revolutionize the way we
           interact with our smart devices at home. Powered by sophisticated
           artificial intelligence, it leverages blockchain technology to offer a
           secure and efficient user experience.
         </p>
-        <p className=" ff-rech font-bold lg:text-[20px] text-base leading-[32px] text-white max-w-[684px] xl:pt-24 lg:pt-20 md:pt-16 sm:pt-8 pt-4 text-center mx-auto">
+        <p className=" ff-rech font-bold relative z-[2] lg:text-[20px] text-base leading-[32px] text-white max-w-[684px] xl:pt-24 lg:pt-20 md:pt-16 sm:pt-8 pt-4 text-center mx-auto">
           By building the software on blockchain, Nexai provides the following
           advantages
         </p>
@@ -99,8 +99,8 @@ const Blockchain = () => {
           {hexa}
         </Slider>
       </div>
-                <div className="w-[228px] h-[228px] blur-[200px] bg-[#02CDCF] rounded-full absolute z-[1] top-[20%] left-0"></div>
-                <div className="w-[228px] h-[228px] blur-[200px] bg-[#02CDCF] rounded-full absolute z-[1] top-0 right-0"></div>
+                <div className="w-[228px] h-[228px] blur-[200px] bg-[#02CDCF] rounded-full  absolute z-[1] top-[20%] left-0"></div>
+                <div className="w-[228px] h-[228px] blur-[200px] bg-[#02CDCF] rounded-full  absolute z-[1] top-0 right-0"></div>
       <img src={ring} alt="r" className="absolute md:block hidden  right-0 top-[-10%]" />
       <img src={ring2} alt="r2" className="absolute md:block hidden  left-0 bottom-[-50%]" />
     </div>
