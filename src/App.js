@@ -37,7 +37,7 @@ function App() {
     <div className="App bg-[#040404] ">
        {preloader&& <Preloader/>}
       <div className=' sm:px-[30px] px-[10px] bg-[#040404] py-3'>
-        <div className='bg-[url(./assets/images/herosection.gif)] flex lg:bg-size flex-col md:min-h-screen bg-no-repeat bg-cover bg-center'>
+        <div className='bg-[url(./assets/images/herosection.gif)] flex lg:bg-size flex-col min-h-screen bg-no-repeat bg-cover bg-center'>
           <Mynav/>
           <Herosec/>
         </div>
