@@ -4,7 +4,7 @@ import { Facebook, Telegram, Twitr } from "./Icons";
 const Footer = () => {
   return (
     <div className="bg-[url(./assets/images/footbg.webp)] relative z-[1] overflow-x-clip lg:mt-20 lg:pt-36 md:pt-28 sm:pt-20 pt-10  bg-cover bg-center bg-no-repeat">
-      <div className="container x:max-w-[1140px]  xl:px-3 px-6 mx-auto">
+      <div className="container xl:max-w-[1140px]  xl:px-3 px-6 mx-auto">
         <div className="flex flex-row flex-wrap -mx-3 ">
           <div className="md:w-1/2 w-full px-3">
             <p className="ff-rech font-bold md:pt-10 text-white sm:text-base text-sm opacity-[70%] max-w-[356px]">
