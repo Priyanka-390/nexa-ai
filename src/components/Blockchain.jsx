@@ -34,7 +34,7 @@ const Blockchain = () => {
   const hexa = slidercard.map((slidercard, e) => (
     <div
       key={e} data-aos={`${slidercard.aos}`}
-      className={`${slidercard.class} max-w-[327px] min-h-[367px] pt-[70px] md:mt-[60px] sm:mt-10 mt-8  w-full bg-[url(./assets/images/Polygon.webp)] bg-full bg-center bg-no-repeat`}
+      className={`${slidercard.class} max-w-[327px] min-h-[367px] group pt-[70px] md:mt-[60px] sm:mt-10 mt-8  w-full bg-[url(./assets/images/Polygon.webp)] bg-full bg-center bg-no-repeat`}
     >
       <div className="flex justify-center">
         <div
@@ -46,7 +46,7 @@ const Blockchain = () => {
           </span>
         </div>
       </div>
-      <p className="text-white sm:text-xl text-base ff-rech font-bold sm:leading-[32px] text-center max-w-[212px] mx-auto pt-[30px]">
+      <p className="text-white sm:text-xl text-base group-hover:text-[#02CDCF99] duration-300 ff-rech font-bold sm:leading-[32px] text-center max-w-[212px] mx-auto pt-[30px]">
         {slidercard.text}
       </p>
     </div>
@@ -64,6 +64,13 @@ const Blockchain = () => {
     cssEase: "linear",
     responsive: [
       {
+        breakpoint: 1100,
+        settings: {
+          slidesToShow: 2.5,
+          slidesToScroll: 1,
+        },
+      },
+          {
         breakpoint: 920,
         settings: {
           slidesToShow: 2,
@@ -81,7 +88,7 @@ const Blockchain = () => {
 
   return (
     <div className="pt-2 overflow-x-clip blockchain z-[3] relative">
-      <div className="container max-w-[1140px] mx-auto  px-3 relative " id="nex">
+      <div className="container xl:max-w-[1140px] mx-auto   xl:px-3 px-6 relative " id="nex">
         <h2 className="text-center lg:text-[40px] relative z-[2] md:text-4xl text-3xl ff-rech font-bold text-[#02CDCF]">
           Blockchain & AI technology
         </h2>

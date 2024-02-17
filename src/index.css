@@ -8,6 +8,6 @@
   }
 
   .navhover {
-    @apply after:absolute relative hover:after:left-[0] after:bottom-[-2px] after:w-0 after:left-[50%] after:rounded-[10px] after:h-[4px] after:bg-[#02CDCF] hover:after:w-full after:duration-300
+    @apply after:absolute relative hover:after:left-[0] after:bottom-[-2px] after:w-0 after:left-[50%] after:rounded-[10px] after:h-[3px] after:bg-[#02CDCF] hover:after:w-full after:duration-300
   }
 }

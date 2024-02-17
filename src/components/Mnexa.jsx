@@ -209,10 +209,10 @@ const Mnexa = () => {
 
   return (
     <div className="md:pt-52 pt-28  overflow-x-clip relative z-[1]" id="about">
-      <h2 className="text-center mx-auto ff-rech font-bold lg:text-[40px] md:text-4xl text-3xl text-[#02CDCF]">
+      <h2 className="text-center mx-auto ff-rech font-bold px-3 lg:text-[40px] md:text-4xl text-3xl text-[#02CDCF]">
         NexAi does all this. And more.
       </h2>
-      <p className="font-poppins sm:text-base text-sm lg:pb-[90px] md:pb-16 sm:pb-10 pb-4 text-white opacity-[70%] font-normal text-center mx-auto sm:pt-4 pt-2 leading-[25.5px] max-w-[912px]">
+      <p className="font-poppins sm:text-base text-sm px-3 lg:pb-[90px] md:pb-16 sm:pb-10 pb-4 text-white opacity-[70%] font-normal text-center mx-auto sm:pt-4 pt-2 leading-[25.5px] max-w-[912px]">
         Nexai is an advanced home assistant that will revolutionize the way we
         interact with our smart devices at home. Powered by sophisticated
         artificial intelligence, it leverages blockchain technology to offer a

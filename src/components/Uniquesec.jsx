@@ -4,7 +4,7 @@ import { Clock } from "./Icons";
 const Uniquesec = () => {
   return (
     <div className="bg-black xl:pt-32 lg:py-30 md:py-20 sm:py-16 py-10 xl:pb-40" id="market">
-      <div className="container max-w-[1340px] px-3 mx-auto">
+      <div className="container xl:max-w-[1340px]  xl:px-3 px-6 mx-auto">
         <div className="bg-[url(./assets/images/serviceimg.webp)] rounded-[24px] border-solid border-[2px] border-[#FCFCFC] bg-center bg-no-repeat bg-cover xl:px-24 lg:px-20 md:px-16 sm:px-12 px-8 xl:pt-20 lg:pt-16 md:pt-12 sm:pt-10 pt-8  overflow-y-scroll w-full">
           <h2 className="text-white lg:text-[40px] md:text-4xl text-3xl ff-rech font-bold text-center">
             Unique features

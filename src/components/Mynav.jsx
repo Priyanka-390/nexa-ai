@@ -14,8 +14,8 @@ const Mynav = () => {
   }
   return (
     <div>
-          <div className="container max-w-[1290px] px-3 mx-auto">
-              <div className='flex items-center xl:py-[32px] sm:py-8 py-5  justify-between'>
+          <div className="container max-w-[1290px] xl:px-3 px-6 mx-auto">
+              <div className='flex items-center xl:pt-[32px] sm:pt-8 pt-5 lg:pb-6  justify-between'>
                   <div className='hidden md:block'></div>
                   <ul className={`flex gap-5 mobileView  ${ show ? "right-[-100%]" : "right-0"
               }`}>

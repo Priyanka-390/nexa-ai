@@ -5,15 +5,15 @@ import rightring from "../assets/images/right.webp"
 const Utilitysec = () => {
   return (
     <div className="xl:pt-40 lg:pt-32 md:pt-20 sm:pt-16 pt-12 relative z-[1] overflow-x-clip" id="token">
-      <div className="container max-w-[1140px]  px-3 mx-auto">
+      <div className="container xl:max-w-[1140px]  xl:px-3 px-6 mx-auto">
         <h2 className="text-center mx-auto ff-rech lg:pb-11 md:pb-8 sm:pb-6 pb-4 font-bold lg:text-[40px] md:text-4xl text-3xl text-[#02CDCF]">
           NexAI Token & utility
         </h2>
         <div className="flex flex-row flex-wrap -mx-3">
           <div className="md:w-1/2 w-full px-3 relative flex max-md:justify-center">
-            <img src={handimg} alt="hand" className=" lg:-translate-x-32 " />
+            <img src={handimg} alt="hand" className=" lg:-translate-x-32 mix-blend-overlay " />
           </div>
-          <div className="md:w-1/2 w-full px-3 flex max-md:justify-center max-md:pt-4">
+          <div className="md:w-1/2 w-full px-3 flex max-md:justify-center max-md:pt-5">
             <div className="max-h-[460px] overflow-y-auto ">
               <div className="relative xl:pl-[84px] md:pl-16 sm:pl-12 pl-9">
                 <div className="after:w-[24px] after:h-[24px] after:rounded-full relative after:absolute after:top-[60%] after:xl:left-[-81px] after:lg:left-[-61px] after:md:left-[-62px] after:sm:left-[-45px] after:left-[-38px] after:z-[1]  after:bg-[#FCFCFC]">

@@ -4,9 +4,9 @@ import aiimg from "../assets/images/AI-img.webp"
 
 const Whatsec = () => {
   return (
-    <div className="xl:pt-40 lg:pt-32 md:pt-20 sm:pt-16 pt-12">
-      <div className="container relative z-[1] overflow-hidden xl:py-40 lg:py-30 md:py-20 sm:py-16 pb-10 pt-4 border border-solid border-[#FCFCFC] rounded-[24px]  bg-[url(./assets/images/aiimg.webp)] max-w-[1340px] mx-auto px-3">
-        <div className="flex md:flex-row flex-col-reverse xl:px-24 lg:px-20 md:px-16 sm:px-12 px-5 flex-wrap -mx-3">
+    <div className="xl:pt-40 lg:pt-32 md:pt-20 sm:pt-16 px-3 pt-12">
+      <div className="container relative z-[1] overflow-hidden xl:py-40 lg:py-30 md:py-20 sm:py-16 pb-10 pt-4 border border-solid border-[#FCFCFC] rounded-[24px]  bg-[url(./assets/images/aiimg.webp)] xl:max-w-[1340px] mx-auto  xl:px-3 px-6">
+        <div className="flex md:flex-row flex-col-reverse xl:px-24 lg:px-20 md:px-16 sm:px-12  flex-wrap -mx-3">
           <div className="md:w-7/12 w-full px-3" data-aos="fade-right">
             <h2 className="ff-rech lg:text-[40px] max-md:text-center max-md:mx-auto md:text-4xl text-3xl font-bold text-[#02CDCF] ">
               What is NexAi?

@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Herosec from './components/Herosec';
 import Mynav from './components/Mynav';
@@ -15,7 +15,7 @@ import Preloader from './components/Preloader';
 import { useEffect, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
+document.body.classList.add("overflow-hidden");
 
 
 function App() {
@@ -34,10 +34,10 @@ function App() {
   }, 3000);
   return (
 
-    <div className="App bg-black">
+    <div className="App bg-[#040404] ">
        {preloader&& <Preloader/>}
-      <div className=' px-[30px] '>
-        <div className='bg-[url(./assets/images/herosection.gif)] flex  flex-col sm:min-h-screen bg-no-repeat bg-cover bg-center'>
+      <div className=' sm:px-[30px] px-[10px] bg-[#040404] py-3'>
+        <div className='bg-[url(./assets/images/herosection.gif)] flex lg:bg-size flex-col md:min-h-screen bg-no-repeat bg-cover bg-center'>
           <Mynav/>
           <Herosec/>
         </div>

@@ -4,7 +4,7 @@ import { Facebook, Telegram, Twitr } from "./Icons";
 const Footer = () => {
   return (
     <div className="bg-[url(./assets/images/footbg.webp)] relative z-[1] overflow-x-clip lg:mt-20 lg:pt-36 md:pt-28 sm:pt-20 pt-10  bg-cover bg-center bg-no-repeat">
-      <div className="container max-w-[1140px] px-3 mx-auto">
+      <div className="container x:max-w-[1140px]  xl:px-3 px-6 mx-auto">
         <div className="flex flex-row flex-wrap -mx-3 ">
           <div className="md:w-1/2 w-full px-3">
             <p className="ff-rech font-bold md:pt-10 text-white sm:text-base text-sm opacity-[70%] max-w-[356px]">
@@ -12,18 +12,18 @@ const Footer = () => {
               platea. Ullamcorper.
             </p>
             <div className="flex items-center gap-3 pt-4">
-              <a className="hover:-translate-y-2 duration-300" href="https://www.facebook.com/login/">
+              <a target="blank" className="hover:-translate-y-2 duration-300" href="https://www.facebook.com/login/">
                 <Facebook />
               </a>
-              <a className="hover:-translate-y-2 duration-300" href="https://twitter.com/i/flow/login">
+              <a target="blank"  className="hover:-translate-y-2 duration-300" href="https://twitter.com/i/flow/login">
                 <Twitr />
               </a>
-              <a className="hover:-translate-y-2 duration-300" href="https://telegr.am/user_mgt/login">
+              <a target="blank"  className="hover:-translate-y-2 duration-300" href="https://telegr.am/user_mgt/login">
                 <Telegram />
               </a>
             </div>
           </div>
-          <div className="md:w-1/2 w-full px-3 pb-8 ">
+          <div className="md:w-1/2 w-full px-3 pb-8 max-md:pt-4 ">
             <div className="flex flex-row flex-wrap -mx-3 max-md:pt-4 ">
               <div className="w-1/2 px-3 flex md:justify-end">
                 <ul>

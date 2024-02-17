@@ -5,15 +5,15 @@ import Button from "./Button";
 const HomeAI = () => {
   return (
     <div className="lg:pt-[86px] lg:pb-[75px] md:py-16 sm:py-12 z-[1] py-4 relative overflow-x-clip" id="home">
-      <div className="container max-w-[1246px] px-3 mx-auto">
+      <div className="container xl:max-w-[1246px]  xl:px-3 px-6 mx-auto">
         <div className="flex flex-row flex-wrap -mx-3 items-end">
-          <div className="lg:w-1/2 w-full px-3 flex justify-center "data-aos="fade-right">
+          <div className="lg:w-1/2 w-full px-3 flex lg:justify-start justify-center"data-aos="fade-right">
             <div className="relative z-[1]">
-              <img src={homeimg} alt="home" className="hover:scale-95 duration-300" />
+              <img src={homeimg} alt="home" className="hover:scale-95 duration-300 " />
               <div className="w-[231px] h-[231px] z-[-1] bg-[#02CDCF] blur-[250px]  absolute left-[15%] top-[2%]  rounded-full"></div>
             </div>
           </div>
-          <div className="lg:w-1/2 w-full max-lg:pt-4 px-3" data-aos="fade-left">
+          <div className="lg:w-1/2 w-full max-lg:pt-5 px-3 flex justify-end flex-col" data-aos="fade-left">
             <h2 className="ff-rech text-[#02CDCF] lg:text-start text-center max-lg:mx-auto md:leading-[50.4px] font-bold lg:text-[40px] md:text-4xl text-3xl">
               Ai-Powered Home Assistant
             </h2>
