@@ -14,7 +14,7 @@ const HomeAI = () => {
             </div>
           </div>
           <div className="lg:w-1/2 w-full max-lg:pt-5 px-3 flex justify-end flex-col" data-aos="fade-left">
-            <h2 className="ff-rech text-[#02CDCF] lg:text-start text-center max-lg:mx-auto md:leading-[50.4px] font-bold lg:text-[40px] md:text-4xl text-3xl">
+            <h2 className="ff-rech text-[#02CDCF] lg:text-start text-center max-lg:mx-auto md:!leading-[50.4px] font-bold lg:text-[40px] md:text-4xl text-3xl">
               Ai-Powered Home Assistant
             </h2>
             <p className="sm:pt-4 pt-2 font-poppins max-w-[517px] lg:text-start text-center max-lg:mx-auto text-white font-normal opacity-[70%]">

@@ -70,6 +70,13 @@ const Blockchain = () => {
           slidesToScroll: 1,
         },
       },
+        {
+        breakpoint: 999,
+        settings: {
+          slidesToShow: 2.2,
+          slidesToScroll: 1,
+        },
+      },
           {
         breakpoint: 920,
         settings: {
@@ -77,8 +84,15 @@ const Blockchain = () => {
           slidesToScroll: 1,
         },
       },
+       {
+        breakpoint: 780,
+        settings: {
+          slidesToShow: 1.5,
+          slidesToScroll: 1,
+        },
+      },
       {
-        breakpoint: 640,
+        breakpoint: 500,
         settings: {
           slidesToShow: 1,
         },

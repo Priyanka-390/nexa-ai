@@ -18,6 +18,7 @@ import 'aos/dist/aos.css';
 document.body.classList.add("overflow-hidden");
 
 
+
 function App() {
    useEffect(() => {
     AOS.init(
@@ -37,7 +38,7 @@ function App() {
     <div className="App bg-[#040404] ">
        {preloader&& <Preloader/>}
       <div className=' sm:px-[30px] px-[10px] bg-[#040404] py-3'>
-        <div className='bg-[url(./assets/images/herosection.gif)] flex lg:bg-size flex-col min-h-screen bg-no-repeat bg-cover bg-center'>
+        <div className='bg-[url(./assets/images/bgimg.webp)] flex lg:bg-size flex-col sm:h-[740px] bg-no-repeat bg-cover bg-center'>
           <Mynav/>
           <Herosec/>
         </div>
