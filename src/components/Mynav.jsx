@@ -15,9 +15,9 @@ const Mynav = () => {
   return (
     <div>
           <div className="container max-w-[1290px] xl:px-3 px-6 mx-auto">
-              <div className='flex items-center xl:pt-[32px] sm:pt-8 pt-5 lg:pb-6  justify-between'>
+              <div className='flex items-center xl:pt-[38px] sm:pt-8 pt-5 lg:pb-6  justify-between'>
                   <div className='hidden md:block'></div>
-                  <ul className={`flex gap-5 mobileView  ${ show ? "right-[-100%]" : "right-0"
+                  <ul className={`flex gap-5 lg:pl-24 mobileView  ${ show ? "right-[-100%]" : "right-0"
               }`}>
                       <li><a href="#home" onClick={nav}  className=' font-poppins navhover hover:text-[#02CDCF] font-normal text-base text-white'>Home</a></li>
                       <li><a href="#market" onClick={nav}   className=' font-poppins navhover hover:text-[#02CDCF] font-normal text-base text-white'>Marketplace</a></li>

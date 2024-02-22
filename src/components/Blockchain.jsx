@@ -15,7 +15,7 @@ const slidercard = [
   {
     head: 2,
     text: "Transparent and Reliable Data Management",
-    class: "!translate-y-20",
+    class: "md:!translate-y-20",
     aos:"fade-down"
   },
   {
@@ -26,7 +26,7 @@ const slidercard = [
   {
     head: 4,
     text: "Automated and Transparent Transactions",
-    class: "!translate-y-20",
+    class: "md:!translate-y-20",
     aos:"fade-down"
   },
 ];

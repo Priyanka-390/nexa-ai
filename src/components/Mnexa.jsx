@@ -68,7 +68,7 @@ const Mnexa = () => {
         className="card py-[72px]  md:max-h-[220px] max-h-[170px] h-full md:px-[43px] px-8 bg-[#090909] group hover:text-[#02CDCF] rounded-[16px] shadow-[0px_4px_20px_0px_#02CDCF29]
       "
       >
-        <p className="text-white max-w-[240px] ff-rech md:text-2xl sm:text-lg text-base group-hover:text-[#02CDCF] duration-300 font-bold text-center">
+        <p className="text-white mx-auto max-w-[240px] ff-rech md:text-2xl sm:text-lg text-base group-hover:text-[#02CDCF] duration-300 font-bold text-center">
           {data.text}
         </p>
       </div>
@@ -81,7 +81,7 @@ const Mnexa = () => {
       className="card py-[72px] md:max-h-[220px] max-h-[170px] h-full  group lg:mt-10 md:mt-8 sm:mt-6 mt-4 px-[43px] bg-[#090909]  mr-4 rounded-[16px] shadow-[0px_4px_20px_0px_#02CDCF29]
 "
     >
-      <p className="text-white max-w-[240px] ff-rech md:text-2xl  group-hover:text-[#02CDCF] duration-300 sm:text-lg text-base font-bold text-center">
+      <p className="text-white mx-auto  max-w-[240px] ff-rech md:text-2xl  group-hover:text-[#02CDCF] duration-300 sm:text-lg text-base font-bold text-center">
         {datasec.text2}
       </p>
     </div>
@@ -93,7 +93,7 @@ const Mnexa = () => {
       className="card py-[72px] md:max-h-[220px] max-h-[170px] h-full group lg:mt-10 md:mt-8 sm:mt-6 mt-4 px-[43px] bg-[#090909]  mr-4 rounded-[16px] shadow-[0px_4px_20px_0px_#02CDCF29]
 "
     >
-      <p className="text-white max-w-[240px] ff-rech md:text-2xl group-hover:text-[#02CDCF] duration-300 sm:text-lg text-base font-bold text-center">
+      <p className="text-white mx-auto max-w-[240px] ff-rech md:text-2xl group-hover:text-[#02CDCF] duration-300 sm:text-lg text-base font-bold text-center">
         {datathird.text3}
       </p>
       </div>
@@ -208,7 +208,7 @@ const Mnexa = () => {
   };
 
   return (
-    <div className="md:pt-52 pt-28  overflow-x-clip relative z-[1]" id="about">
+    <div className="md:pt-52 pt-12  overflow-x-clip relative z-[1]" id="about">
       <h2 className="text-center mx-auto ff-rech font-bold px-3 lg:text-[40px] md:text-4xl text-3xl text-[#02CDCF]">
         NexAi does all this. And more.
       </h2>

@@ -28,12 +28,12 @@ const Footer = () => {
               <div className="w-1/2 px-3 flex md:justify-end">
                 <ul>
                                   <li className="ff-rech font-bold text-white sm:text-lg text-base">Quick links</li>
-                                  <li className="md:pt-5 sm:pt-4 pt-3"><a href="" className="ff-rech hover:opacity-[100%] duration-300 sm:text-base text-sm text-white opacity-[70%] font-bold ">Home</a></li>
+                                  <li className="md:pt-5 sm:pt-4 pt-3"><a href="#home" className="ff-rech hover:opacity-[100%] duration-300 sm:text-base text-sm text-white opacity-[70%] font-bold ">Home</a></li>
                                   <li className="md:pt-5 sm:pt-4 pt-3"><a href="" className="ff-rech hover:opacity-[100%] duration-300 sm:text-base text-sm text-white opacity-[70%] font-bold ">Features</a></li>
                                   <li className="md:pt-5 sm:pt-4 pt-3"><a href="" className="ff-rech hover:opacity-[100%] duration-300 sm:text-base text-sm text-white opacity-[70%] font-bold ">Marketplace</a></li>
-                                  <li className="md:pt-5 sm:pt-4 pt-3"><a href="" className="ff-rech hover:opacity-[100%] duration-300 sm:text-base text-sm text-white opacity-[70%] font-bold ">Tokens</a></li>
+                                  <li className="md:pt-5 sm:pt-4 pt-3"><a href="#token" className="ff-rech hover:opacity-[100%] duration-300 sm:text-base text-sm text-white opacity-[70%] font-bold ">Tokens</a></li>
                                   <li className="md:pt-5 sm:pt-4 pt-3"><a href="" className="ff-rech hover:opacity-[100%] duration-300 sm:text-base text-sm text-white opacity-[70%] font-bold ">NexChat</a></li>
-                                  <li className="md:pt-5 sm:pt-4 pt-3"><a href="" className="ff-rech hover:opacity-[100%] duration-300 sm:text-base text-sm text-white opacity-[70%] font-bold ">About</a></li>
+                                  <li className="md:pt-5 sm:pt-4 pt-3"><a href="#about" className="ff-rech hover:opacity-[100%] duration-300 sm:text-base text-sm text-white opacity-[70%] font-bold ">About</a></li>
                 </ul>
                           </div>
                            <div className="w-1/2 px-3 flex md:justify-end">

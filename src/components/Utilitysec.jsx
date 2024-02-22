@@ -91,12 +91,17 @@ const Utilitysec = () => {
                     convenience.
                   </p>
                 </div>
-                 <div className="after:w-[24px] after:h-[24px] after:rounded-full relative after:absolute after:top-[60%] after:xl:left-[-81px] after:lg:left-[-61px] after:md:left-[-62px] after:sm:left-[-45px] after:left-[-38px] after:z-[1]  after:bg-[#FCFCFC]">
+                <div className="after:w-[24px] after:h-[24px] after:rounded-full relative after:absolute after:top-[60%] after:xl:left-[-81px] after:lg:left-[-61px] after:md:left-[-62px] after:sm:left-[-45px] after:left-[-38px] after:z-[1]  after:bg-[#FCFCFC]">
                   <p className="ff-rech font-bold lg:pt-[60px] md:pt-12 sm:pt-8 pt-5 lg:text-2xl md:text-xl text-lg text-white">
-                  Token Staking and Rewards
+                    Token Staking and Rewards
                   </p>
                   <p className="lg:pt-4 md:pt-2 pt-1 sm:text-base text-sm font-poppins text-white font-normal opacity-[70%] max-w-[536px]">
-                  Nex AI tokens will support staking mechanisms, allowing users to lock up their tokens for a specified period. By staking their tokens, users will earn additional rewards, such as interest, dividends, or other incentives, further incentivizing token holding and fostering long-term engagement and loyalty.
+                    Nex AI tokens will support staking mechanisms, allowing
+                    users to lock up their tokens for a specified period. By
+                    staking their tokens, users will earn additional rewards,
+                    such as interest, dividends, or other incentives, further
+                    incentivizing token holding and fostering long-term
+                    engagement and loyalty.
                   </p>
                 </div>
                 <div className="h-full w-2 bg-[#02CDCF] rounded-[15px] absolute left-[2%] top-0"></div>
